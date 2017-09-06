@@ -1,0 +1,449 @@
+/*首页 最新 产品样式 列表*/
+.wrap .main .latest-product .latest-product-list{
+    margin:30px 0;
+}
+.wrap .main .latest-product .latest-product-list ul{
+    overflow: hidden;
+}
+.wrap .main .latest-product .latest-product-list ul li{
+    width:237px;
+    height:446px;
+    background:url("../img/Latest-product-bg.png") no-repeat;
+    margin-right:30px;
+    float: left;
+    padding:48px 20px 12px;
+    position: relative;
+}
+.wrap .main .latest-product .latest-product-list ul li div img{
+    margin:0 auto;
+}
+.wrap .main .latest-product .latest-product-list ul li .jump{
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+
+}
+.wrap .main .latest-product .latest-product-list ul li span,
+.wrap .main .latest-product .latest-product-list ul li img,
+.wrap .main .latest-product .latest-product-list ul li i,
+.wrap .main .latest-product .latest-product-list ul li a{
+    display: block;
+}
+.wrap .main .latest-product .latest-product-list ul li span{
+    font:14px/20px '微软雅黑';
+    color: #fff;
+    text-align: center;
+    width:64px;
+}
+.wrap .main .latest-product .latest-product-list ul li h6{
+    font:20px/54px '微软雅黑';
+    color:#44505c;
+
+}
+.wrap .main .latest-product .latest-product-list ul li div .price{
+    width:100%;
+    font:16px/20px '微软雅黑';
+    color: #666;
+    text-align: right;
+    margin-top:50px;
+}
+.wrap .main .latest-product .latest-product-list ul li div .price i{
+    display: inline-block;
+    font-style: normal;
+    border:none;
+    margin:0;
+}
+.wrap .main .latest-product .latest-product-list ul li div .price i ,
+.wrap .main .latest-product .latest-product-list ul li div .price strong{
+    color: #333;
+}
+.wrap .main .latest-product .latest-product-list ul li i{
+    border-top:2px solid #40c4d8;
+    margin:6px 0;
+}
+.wrap .main .latest-product .latest-product-list ul li  div a{
+    width:100px;
+    text-align: center;
+    font:12px/22px '微软雅黑';
+    color: #fff;
+    background: #32858e;
+    position: absolute;
+    right:20px;
+    bottom: 20px;
+    z-index: 99;
+}
+.wrap .main .latest-product .latest-product-list ul li a{
+    width:100%;
+}
+.wrap .main .latest-product .latest-product-list ul li span span{
+    display: inline-block;
+}
+/*首页 最新 产品样式 底部*/
+.wrap .main .latest-product .product-footer{
+    width:100%;
+    height:300px;
+    background: url("../img/Latest-product-bg-2.png") no-repeat;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+.wrap .main .latest-product .product-footer .product-footer-box{
+    overflow: hidden;
+    padding:30px 230px;
+}
+.wrap .main .latest-product .product-footer .jump{
+    position: absolute;
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.wrap .main .latest-product .product-footer .product-details,
+.wrap .main .latest-product .product-footer img,
+.wrap .main .latest-product .product-footer .product-price{
+    float: left;
+}
+.wrap .main .latest-product .product-footer .product-details {
+    padding:48px 0;
+}
+.wrap .main .latest-product .product-footer .product-details span:nth-child(1){
+    font:32px/50px '微软雅黑';
+    color: #ffffff;
+}
+.wrap .main .latest-product .product-footer .product-details span:nth-child(2){
+    font:18px/38px '微软雅黑';
+    color: #e0e4ea;
+}
+.wrap .main .latest-product .product-footer .product-details span:nth-child(3){
+    font:36px/50px '微软雅黑';
+    color: #154058;
+}
+.wrap .main .latest-product .product-footer .product-details span{
+    display: block;
+    text-align: left;
+
+}
+.wrap .main .latest-product .product-footer .product-price{
+    padding:80px 0 80px 38px;
+    position: relative;
+}
+.wrap .main .latest-product .product-footer .product-price div{
+    display: inline-block;
+    text-align: right;
+}
+.wrap .main .latest-product .product-footer .product-price div p,
+.wrap .main .latest-product .product-footer .product-price div p span,
+.wrap .main .latest-product .product-footer .product-price div p span strong{
+    font:12px/28px '微软雅黑';
+    color:#666;
+}
+.wrap .main .latest-product .product-footer .product-price div p span{
+    text-decoration: line-through;
+}
+.wrap .main .latest-product .product-footer .product-price div span strong{
+    font:24px/36px '微软雅黑';
+    color: #f46b36;
+}
+.wrap .main .latest-product .product-footer .product-price a{
+    border:1px solid #123b4f;
+    width:38px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    display: inline-block;
+    font:16px/20px '微软雅黑';
+    color: #48545c;
+    position: absolute;
+    right:-60px;
+    top:40%;
+    z-index: 100;
+}
+
+
+/*<!--热卖产品-->*/
+.wrap .main .hot-products .product-title,
+.wrap .main .recomd-products .product-title{
+    margin:30px 0;
+}
+.wrap .main .hot-products .hot-products-list ul li{
+    width:300px;
+    height:100%;
+    float: left;
+}
+.wrap .main .hot-products .hot-products-list ul{
+    overflow: hidden;
+}
+.wrap .main .hot-products .hot-products-list ul li .hot-box{
+    width:299px;
+    border-right:1px solid #d6cece;
+    position: relative;
+}
+.wrap .main .hot-products .hot-products-list ul li .hot-box a{
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index: 88;
+}
+.wrap .main .hot-products .hot-products-list ul li .hot-box img,
+.wrap .main .hot-products .hot-products-list ul li .hot-box p{
+    padding:0 15px;
+    text-align: center;
+}
+.wrap .main .hot-products .hot-products-list ul li .hot-box img{
+    margin:90px auto 90px;
+}
+.wrap .main .hot-products .hot-products-list ul li .hot-box p span{
+    display: block;
+}
+.wrap .main .hot-products .hot-products-list ul li .hot-box p span:nth-child(1){
+    background: #f8b551;
+    width:74px;
+    text-align: center;
+    margin:0 auto;
+    font:12px/18px '微软雅黑';
+    color: #ffffff;
+}
+.wrap .main .hot-products .hot-products-list ul li .hot-box p span:nth-child(2){
+    font:bold 20px/44px '微软雅黑';
+    color: #44505c;
+}
+
+.wrap .main .hot-products .hot-products-list ul li .hot-price{
+    padding:0 30px;
+}
+.wrap .main .hot-products .hot-products-list ul li .hot-price p{
+    overflow: hidden;
+    border-top: 1px solid #40c4d8;
+}
+.wrap .main .hot-products .hot-products-list ul li .hot-price p span{
+    font: 14px/38px '微软雅黑';
+    color: #666;
+}
+.wrap .main .hot-products .hot-products-list ul li .hot-price p span:nth-child(1){
+     float: left;
+ }
+.wrap .main .hot-products .hot-products-list ul li .hot-price p span:nth-child(2){
+    float: right;
+}
+.wrap .main .hot-products .hot-products-list ul li .hot-price a{
+    font:14px/30px '微软雅黑';
+    color: #fff;
+    width:100%;
+    text-align: center;
+    background: #734d8a;
+    display: block;
+}
+
+
+/*.<!--推荐产品 recomd-products-->*/
+.wrap .main .recomd-products .recomd-list{
+    overflow: hidden;
+}
+.wrap .main .recomd-products .recomd-list .recomd-left{
+    float: left;
+    width:400px;
+    height:100%;
+    background: #f1efef;
+    margin-right: 50px;
+}
+.wrap .main .recomd-products .recomd-list .recomd-left a{
+    display: block;
+}
+.wrap .main .recomd-products .recomd-list ul{
+    float: left;
+    overflow: hidden;
+}
+.wrap .main .recomd-products .recomd-list ul li{
+    width:314px;
+    float: left;
+    text-align: center;
+    padding: 56px 30px 43px 30px;
+    position: relative;
+}
+.wrap .main .recomd-products .recomd-list ul{
+    width: 750px;
+}
+.wrap .main .recomd-products .recomd-list ul li:nth-child(1),
+.wrap .main .recomd-products .recomd-list ul li:nth-child(2){
+    border-bottom: 1px solid #d6cece;
+}
+.wrap .main .recomd-products .recomd-list ul li:nth-child(1),
+.wrap .main .recomd-products .recomd-list ul li:nth-child(3){
+    border-right: 1px solid #d6cece;
+}
+.wrap .main .recomd-products .recomd-list ul li .recomd-list-text{
+    float: left;
+}
+.wrap .main .recomd-products .recomd-list ul li .recomd-list-text span{
+    display: block;
+    font: 24px/42px '微软雅黑';
+    color: #a6b2cf;
+}
+.wrap .main .recomd-products .recomd-list ul li .recomd-list-text h6{
+    font: 30px/38px '微软雅黑';
+    color: #a6b2cf;
+}
+.wrap .main .recomd-products .recomd-list ul li .recomd-list-text p{
+    font: 24px/33px '微软雅黑';
+    color: #a6b2cf;
+}
+.wrap .main .recomd-products .recomd-list ul li .recomd-list-text .purchase{
+    position: absolute;
+    font: 12px/26px '微软雅黑';
+    color: #fff;
+    padding: 0px 15px;
+    background: #59688f;
+    z-index: 99;
+    left:40px;
+}
+.wrap .main .recomd-products .recomd-list ul li img{
+    float: left;
+    margin: 5px 0 0 40px;
+}
+.wrap .main .recomd-products .recomd-list ul li .recomd-purchase{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height:100%;
+    z-index: 44;
+}
+.wrap .main .recomd-products .product-footer{
+    margin: 30px 0;
+    background: url("../img/recomd-products-bg.png") no-repeat;
+    text-align: center;
+    overflow: hidden;
+    padding: 74px 30% 0;
+    position: relative;
+}
+.wrap .main .recomd-products .product-footer .product-footer-text{
+    width: 154px;
+    float: left;
+    margin-right: 90px;
+
+}
+.wrap .main .recomd-products .product-footer .product-footer-text p{
+    font: 24px/34px '微软雅黑';
+    color: #fff;
+}
+.wrap .main .recomd-products .product-footer .product-footer-text p span{
+    display: inline-block;
+    font: 20px/20px '微软雅黑';
+    color: #fff;
+    margin:0 20px 0 -20px ;
+}
+.wrap .main .recomd-products .product-footer .product-footer-text p span strong{
+    color: #f98648;
+}
+.wrap .main .recomd-products .product-footer .product-footer-text img{
+    margin: 8px 0 40px;
+}
+.wrap .main .recomd-products .product-footer .product-footer-text p a{
+    display: inline-block;
+    width: 28px;
+    text-align: center;
+    border:1px solid #fff;
+    font: 12px/14px '微软雅黑';
+    color: #e4e4e4;
+
+}
+.wrap .main .recomd-products .product-footer .product-footer-img{
+    float: left;
+    margin-top: 3px;
+}
+.wrap .main .recomd-products .product-footer .recomd-purchase{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.wrap .main .recomd-products .product-footer .product-footer-text p .purchase{
+    position: absolute;
+    z-index: 120;
+}
+
+
+
+/*<!--  暴款产品  storm-products-->*/
+.wrap .main .storm-products .storm-products-list{
+    margin: 30px auto;
+    overflow: hidden;
+}
+.wrap .main .storm-products .storm-products-list .storm-list-left li,
+.wrap .main .storm-products .storm-products-list .storm-list-right li{
+    width: 320px;
+    border:1px solid #d6cece;
+    margin: 0 0 30px 0;
+}
+.wrap .main .storm-products .storm-products-list .storm-list-left li .storm-purchase,
+.wrap .main .storm-products .storm-products-list .storm-list-right li .storm-purchase,
+.wrap .main .storm-products .storm-products-list .storm-list-center .storm-purchase{
+    display: inline-block;
+    width: 100%;
+    height:100%;
+    text-align: center;
+    line-height: 190px;
+}
+.wrap .main .storm-products .storm-products-list .storm-list-left li div,
+.wrap .main .storm-products .storm-products-list .storm-list-right li div,
+.wrap .main .storm-products .storm-products-list .storm-list-center div{
+    background: #ebebeb;
+    display: block;
+    text-align: center;
+    padding: 14px 0 22px;
+}
+.wrap .main .storm-products .storm-products-list .storm-list-left li div span,
+.wrap .main .storm-products .storm-products-list .storm-list-right li div span{
+    display: block;
+}
+.wrap .main .storm-products .storm-products-list .storm-list-left li div .ori-price,
+.wrap .main .storm-products .storm-products-list .storm-list-right li div .ori-price,
+.wrap .main .storm-products .storm-products-list .storm-list-center div span{
+    font: 12px/30px '微软雅黑';
+    color: #666;
+}
+.wrap .main .storm-products .storm-products-list .storm-list-left li div .present-price,
+.wrap .main .storm-products .storm-products-list .storm-list-right li div .present-price,
+.wrap .main .storm-products .storm-products-list .storm-list-center div .discount{
+    font: 18px/40px '微软雅黑';
+    color: #666;
+}
+.wrap .main .storm-products .storm-products-list .storm-list-left li div .ori-price strong,
+.wrap .main .storm-products .storm-products-list .storm-list-right li div .ori-price strong{
+    text-decoration: line-through;
+}
+.wrap .main .storm-products .storm-products-list .storm-list-left li div a,
+.wrap .main .storm-products .storm-products-list .storm-list-right li div a,
+.wrap .main .storm-products .storm-products-list .storm-list-center div a{
+    font:12px/22px '微软雅黑';
+    color: #fff;
+    background: #e01222;
+    padding: 0 18px;
+}
+.wrap .main .storm-products .storm-products-list .storm-list-center{
+    width: 494px;
+    border: 1px solid #d6cece;
+}
+.wrap .main .storm-products .storm-products-list .storm-list-center .storm-purchase{
+    line-height: 541px;
+}
+.wrap .main .storm-products .storm-products-list .storm-list-center div span{
+ display: block;
+}
+.wrap .main .storm-products .storm-products-list .storm-list-left,
+.wrap .main .storm-products .storm-products-list .storm-list-center,
+.wrap .main .storm-products .storm-products-list .storm-list-right{
+    float: left;
+    margin-right: 30px;
+}
+.wrap .main .storm-products .storm-products-list .storm-list-right {
+    margin-right: 0;
+}

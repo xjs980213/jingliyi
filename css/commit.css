@@ -1,0 +1,407 @@
+/*通用样式*/
+
+
+
+/*公用header  class为top的*/
+
+*{margin:0;}
+a{text-decoration: none;}
+img{border:none;vertical-align: middle;padding:0; margin:0;}
+.clearfix:after{content: "";display: block;clear: both;}
+input,button{outline: none;}
+ul,li{list-style: none;padding:0;margin:0;}
+strong{font-weight: normal;}
+
+.wrap .header .top .top-box,
+.wrap .header .logo-search-cart,
+.wrap .header .nav .nav-box,
+.wrap .header .discount,
+.wrap .main{
+    width:1200px;
+    margin:0 auto;
+}
+/*显示show 隐藏 hid*/
+.show{display: block}
+.hid{display: none}
+
+/*<!--top顶部-->*/
+.wrap .header .top{
+    background: #e3e4e5;
+}
+
+.wrap .header .top .top-box{
+    overflow: hidden;
+    font:14px/30px '微软雅黑';
+    color: #666;
+
+}
+.wrap .header .top .top-box .top-left{
+    float: left;
+}
+.wrap .header .top .top-box .top-right{
+    float: right;
+}
+.wrap .header .top .top-box .top-right p{
+    display: inline-block;
+}
+.wrap .header .top .top-box a{
+    font:14px/30px '微软雅黑';
+    color: #666;
+}
+.wrap .header .top .top-box a img{
+    margin:-5px 5px 0 0;
+}
+
+/*<!--logo-search-cart  顶部  logo 搜索  购物车-->*/
+.wrap .header .logo-search-cart{
+    padding:30px 0 20px 0;
+    overflow: hidden;
+}
+.wrap .header .logo-search-cart .logo{
+    float: left;
+}
+.wrap .header .logo-search-cart .search{
+    float: left;
+    width:760px;
+    padding:0 30px;
+    text-align: right;
+
+}
+.wrap .header .logo-search-cart .search div{
+    line-height: 74px;
+    overflow: hidden;
+    position: relative;
+}
+.wrap .header .logo-search-cart .search div input{
+    width: 320px;
+    line-height: 24px;
+    border: 2px solid #ee6e18;
+    text-indent: 2em;
+}
+.wrap .header .logo-search-cart .search div span{
+    display:inline-block;
+    font:16px/26px '微软雅黑';
+    color: #fff;
+    border: 2px solid #ee6e18;
+    background: #ee6e18;
+    cursor: pointer;
+    padding:0 30px;
+    position: relative;
+    right:2px;
+    top:2px;
+}
+.wrap .header .logo-search-cart .cart{
+    float:right;
+}
+.wrap .header .logo-search-cart .cart a{
+    font:16px/74px '微软雅黑';
+    color: #333;
+}
+.wrap .header .logo-search-cart .cart a img{
+    margin:-5px 10px 0 0;
+}
+
+/*<!--头部导航  nav-->*/
+.wrap .header .nav{
+    background: #f7bf46;
+}
+.wrap .header .nav ul{
+    overflow: hidden;
+}
+.wrap .header .nav ul li a{
+    font: 16px/30px '微软雅黑';
+    color: #333;
+}
+.wrap .header .nav .nav-menu{
+    float: left;
+    height:100%;
+
+}
+.wrap .header .nav .list{
+    float: left;
+}
+.wrap .header .nav .nav-menu h4{
+    position: relative;
+    text-align: center;
+    background: #ee6e18;
+    font:16px/30px '微软雅黑';
+    color: #fff;
+}
+.wrap .header .nav .nav-menu .menu{
+    background-color: rgba(157,161,168,.5);
+    text-align: center;
+    font: 14px/41px '微软雅黑';
+    color: #ffffff;
+    position: absolute;
+    padding: 7px 0;
+    z-index: 33;
+}
+.wrap .header .nav .nav-menu .menu li{
+    padding:0 7px;
+    text-align: left;
+}
+.wrap .header .nav .nav-menu .menu li a{
+    font: 14px/41px '微软雅黑';
+    color: #ffffff;
+}
+.wrap .header .nav .list li{
+    float: left;
+    padding:0 40px;
+}
+.wrap .header .nav .list li a{
+    font:16px/30px '微软雅黑';
+    color: #333;
+}
+.wrap .header .nav .list li a:hover{
+    color: #ee6e18;
+}
+
+
+/*<!--banner图-->*/
+.wrap .header .banner{
+    font-size: 0;
+    overflow: hidden;
+    height:auto;
+    width:100%;
+    position: relative;
+}
+.wrap .header .banner img{
+    width:100%;
+    height:100%;
+}
+/*.wrap .header .banner ul{*/
+    /*position: absolute;*/
+    /*overflow: hidden;*/
+    /*height:auto;*/
+    /*width:100%;*/
+/*}*/
+/*.wrap .header .banner ul li{*/
+    /*overflow: hidden;*/
+    /*height:auto;*/
+    /*width:100%;*/
+    /*float: left;*/
+/*}*/
+/*.wrap .header .banner ul li a {*/
+    /*display: block;*/
+    /*width:100%;*/
+/*}*/
+/*.wrap .header .banner ul li a img{*/
+    /*width:100%;*/
+    /*display: block;*/
+/*}*/
+/*.wrap .header .banner ol {*/
+    /*position: absolute;*/
+    /*left:45%;*/
+    /*bottom: 10px;*/
+/*}*/
+
+/*<!--优惠-->*/
+.wrap .header .discount{
+    margin:30px auto 30px;
+    overflow: hidden;
+}
+.wrap .header .discount li{
+    float: left;
+    margin-right:40px;
+}
+.wrap .header .discount .discountBox{
+
+    padding:30px 50px;
+    border:1px solid #f1b908;
+    text-align: center;
+    overflow: hidden;
+}
+.wrap .header .discount .discountBox span{
+    display: block;
+}
+.wrap .header .discount .discountBox span,
+.wrap .header .discount .discountBox a{
+    font: 30px/47px '微软雅黑';
+    color: #333;
+}
+.wrap .header .discount .discountBox p,
+.wrap .header .discount .discountBox div{
+    float: left;
+}
+.wrap .header .discount .discountBox div a{
+    font:18px/47px '微软雅黑';
+    color: #333333;
+}
+.wrap .header .discount .discountBox p{
+    font: 50px/89px '微软雅黑';
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-right: 16px;
+}
+
+
+
+/*<!--产品共用title-->*/
+.product-title{
+    background: #32858e;
+    padding: 0 55px 0 50px;
+    overflow: hidden;
+
+}
+.product-title h4,
+.product-title a{
+    font: 30px/45px '微软雅黑';
+    color: #fff;
+}
+.product-title h4{
+    float: left;
+    vertical-align: middle;
+}
+.product-title h4 img{
+    margin-top:-5px;
+}
+.product-title a{
+    float: right;
+}
+
+/*<!--产品共用footer-->*/
+
+
+.wrap .footer{
+    width: 100%;
+    height: 100%;
+    background: #eaeaea;
+}
+
+.wrap .footer .foot-top ul li{
+    float: left;
+    overflow: hidden;
+    margin-right: 120px;
+}
+.wrap .footer .foot-top{
+    width: 100%;
+    border-bottom: 1px solid #d3cece;
+}
+.wrap .footer .foot-top ul{
+    overflow: hidden;
+    width: 1160px;
+    margin: 0 auto;
+    padding: 74px 20px 24px;
+
+}
+.wrap .footer .foot-top ul li a{
+    float: left;
+}
+.wrap .footer .foot-top ul li a img{
+    margin-top: 3px;
+}
+.wrap .footer .foot-top ul li a+a{
+    margin-left: 20px;
+}
+.wrap .footer .foot-top ul li a+a span+span{
+    font: 14px/28px '微软雅黑';
+    color: #666666;
+}
+.wrap .footer .foot-top ul li:nth-child(4){
+    margin-right: 0px;
+}
+.wrap .footer .foot-top ul li a span{
+    display: block;
+    font: 18px/28px '微软雅黑';
+    color: #333;
+}
+.wrap .footer .foot-list{
+    width: 1040px;
+    margin:0 auto;
+    padding: 30px 80px 6px;
+    overflow: hidden;
+}
+.wrap .footer .foot-list dl{
+    float: left;
+    margin-right: 175px;
+}
+.wrap .footer .foot-list dl:nth-child(5n){
+     margin-right: 0px;
+ }
+.wrap .footer .foot-list dl dt{
+    font: 14px/28px '微软雅黑';
+    color: #4c4b4b;
+    text-align: left;
+}
+.wrap .footer .foot-list dl dd a{
+    font: 12px/26px '微软雅黑';
+    color: #7e7e7e;
+    text-align: left;
+}
+.wrap .footer .copyright{
+    text-align: center;
+    font:12px/74px '微软雅黑';
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+/*<!--通用的page-->*/
+.wrap .main .page{
+     overflow: hidden;
+     text-align: right;
+    margin:40px 0;
+ }
+.wrap .main .page ul{
+    overflow: hidden;
+    float: left;
+    text-align: right;
+    padding-left: 436px;
+}
+.wrap .main .page .one-page{
+    overflow: hidden;
+    float: right;
+}
+.wrap .main .page ul li a{
+    font: 14px/28px '微软雅黑';
+    color: #666;
+    padding: 0 12px;
+    border:1px solid #dfdcdc;
+    background: #fff;
+    display: block;
+}
+.wrap .main .page ul li{
+    float: left;
+    margin-right: 7px;
+}
+.wrap .main .page ul .on a{
+    border:1px solid #fff;
+    color: #d81e06;
+}
+.wrap .main .page .one-page p{
+    float: left;
+    text-align: right;
+    font: 14px/30px '微软雅黑';
+    color: #666;
+}
+.wrap .main .page .one-page .determine{
+    float: left;
+    margin-left: 60px;
+    font: 14px/28px '微软雅黑';
+    color: #666;
+    padding: 0 20px;
+    border:1px solid #dfdcdc;
+    background: #f6f6f6;
+    cursor: pointer;
+}
+.wrap .main .page .one-page p input{
+    width: 32px;
+    height: 26px;
+    font: 14px/26px '微软雅黑';
+    color: #666;
+    border:1px solid #dfdcdc;
+    text-align: center;
+}
+
+
+
+
+
+

@@ -1,0 +1,186 @@
+/*产品列表页*/
+.wrap .main{
+    width: 1200px;
+    margin: 34px auto;
+}
+.chosen,
+.ifo-goods,
+.price-ifo,
+.sl-style{
+    overflow: hidden;
+    border:1px solid #bbb7b7;
+}
+.ifo-goods,
+.price-ifo,
+.sl-style{
+    border-top: none;
+}
+/*公用的*/
+
+.selector-key{
+    float: left;
+    width: 152px;
+    background: #e8f0f7;
+    text-align: center;
+    margin-right: 50px;
+}
+.selector-key strong{
+    font: 14px/58px '微软雅黑';
+    color: #333333;
+}
+.selector-value{
+    padding-top: 6px;
+}
+.selector-value ul{
+    overflow: hidden;
+}
+.selector-value ul li{
+    float: left;
+    width: 144px;
+}
+.selector-value ul li a{
+    font:14px/26px '微软雅黑';
+    color: #333;
+}
+.selector-value ul li a:hover{
+    color: #b04046;
+}
+.ifo-goods .selector-value,
+.price-ifo .selector-value,
+.sl-style .selector-value{
+    padding-top:0;
+}
+.ifo-goods ul li{
+    width: 140px;
+ }
+.ifo-goods ul li a,
+.price-ifo ul li a,
+.sl-style ul li a{
+    font:14px/58px '微软雅黑';
+}
+
+.price-ifo{
+    position: relative;
+}
+.price-ifo .custom-price {
+    position: absolute;
+    right: 18%;
+    top: 15px;
+}
+.price-ifo .custom-price .min-price,
+.price-ifo .custom-price .max-price{
+    width: 82px;
+    height: 22px;
+    border:1px solid #bbb7b7;
+    text-align: center;
+}
+.price-ifo .custom-price button{
+    background: #fff;
+    border:none;
+    outline:none;
+    cursor: pointer;
+}
+
+/*<!--各种排序  销量等等-->*/
+.wrap .main .various-sort{
+    width: 1118px;
+    margin:30px auto;
+    border:1px solid #d5d2d2;
+    background: #e8f0f7;
+    padding: 10px 40px;
+    overflow: hidden;
+}
+.wrap .main .various-sort .sort-left{
+    float: left;
+    overflow: hidden;
+}
+.wrap .main .various-sort .sort-left a img{
+     margin:-3px 0 0 10px;
+    width: 17px;height: 23px;
+ }
+
+.wrap .main .various-sort .sort-left a{
+    float: left;
+    font: 18px/37px '微软雅黑';
+    color: #333;
+    border:1px solid #d5d2d2;
+    padding: 0 22px;
+    background: #fff;
+    margin-right: 18px;
+}
+.wrap .main .various-sort .sort-right{
+    float: right;
+}
+.wrap .main .various-sort .sort-right .min-price,
+.wrap .main .various-sort .sort-right .max-price{
+    width: 117px;
+    height: 37px;
+    border:1px solid #d5d2d2;
+    padding: 0 0 0 10px;
+    font: 24px/37px '微软雅黑';
+    color: #666666;
+}
+
+/*<!--产品列表-->*/
+.wrap .main .pro-list ul{
+    overflow: hidden;
+}
+.wrap .main .pro-list ul li{
+    width: 274px;
+    float: left;
+    text-align: center;
+    padding: 20px 12px;
+    border:1px solid #fff;
+
+}
+.wrap .main .pro-list ul li:hover{
+    border:1px solid #e4393c;
+}
+.wrap .main .pro-list ul li a{
+    display: block;
+    line-height: 260px;
+ }
+.wrap .main .pro-list ul li p,
+.wrap .main .pro-list ul li p a{
+      font: 16px/33px '微软雅黑';
+      color: #4f4f52;
+    text-align: left;
+  }
+.wrap .main .pro-list ul li p span{
+       color: #e13838;
+   }
+.wrap .main .pro-list ul li p a{
+      text-align: left;
+    }
+.wrap .main .pro-list ul li p a i,
+.wrap .main .pro-list ul li p a span{
+     font-style: normal;
+    color: #6970b5;
+    font-size: 16px;
+ }
+.wrap .main .pro-list .price-cart{
+      overflow: hidden;
+  }
+.wrap .main .pro-list .price-cart span{
+    float: left;
+}
+.wrap .main .pro-list .price-cart img{
+    float: right;
+    cursor: pointer;
+}
+.wrap .main .pro-list .price-cart span,
+.wrap .main .pro-list .price-cart img{
+    font: 30px/40px '微软雅黑';
+    color: #e33032;
+}
+
+
+
+
+
+
+
+
+
+
+

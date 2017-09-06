@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+}
+.banner {
+  font-size: 0;
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+.banner .img-box {
+  position: absolute;
+  left: -1300px;
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+}
+.banner .img-box li {
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+  float: left;
+}
+.banner .img-box li a img {
+  display: block;
+  width: 100%;
+}
+.banner .prev,
+.banner .next {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}

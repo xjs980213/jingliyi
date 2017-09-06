@@ -1,0 +1,399 @@
+
+/*产品详情页 nav 导航*/
+.wrap .main .pro-del-nav{
+    text-align: left;
+    font: 16px/53px '微软雅黑';
+    color: #666666;
+}
+.wrap .main .pro-del-nav a{
+    display: inline-block;
+    font: 16px/53px '微软雅黑';
+    color: #666666;
+}
+
+
+
+/*tab 切换  放大镜*/
+.wrap .main .pro-details{
+    overflow: hidden;
+    margin-top:15px;
+}
+.wrap .main .pro-details .tab-magnifier{
+    float: left;
+    width: 462px;
+    height: auto;
+    text-align: center;
+    border:1px solid #686868;
+    position: relative;
+}
+.wrap .main .pro-details .tab-magnifier .big-picture{
+    position: relative;
+}
+.move-small{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100px;
+    height:100px;
+    background: #000;
+    opacity: .3;
+    display: none;
+}
+.wrap .main .pro-details .tab-magnifier .big-picture a {
+    display: block;line-height: 504px;
+}
+.wrap .main .pro-details .tab-magnifier .enlarge{
+    width: 243px;
+    height: 370px;
+    overflow: hidden;
+    display: none;
+    position: absolute;
+    top:0;
+}
+.wrap .main .pro-details .tab-magnifier .enlarge img{
+    position: absolute;
+}
+.wrap .main .pro-details .tab-magnifier .big-picture a img{
+    width: 243px;
+    height: 370px;
+}
+.wrap .main .pro-details .tab-magnifier .tab-small{
+    margin:0 0 22px 0;
+}
+.wrap .main .pro-details .tab-magnifier .tab-small ul{
+    overflow: hidden
+}
+.wrap .main .pro-details .tab-magnifier .tab-small ul li{
+    float: left;
+    width: 101px;
+    height: 108px;
+    border:1px solid #a7a7a7;
+    text-align: center;
+    line-height: 108px;
+    margin:0 6px;
+    cursor: pointer;
+}
+
+/*<!--pro-parameter 产品参数 中间-->*/
+.wrap .main .pro-details .pro-parameter{
+    width: 367px;
+    float: left;
+    margin:4px 20px 0 50px;
+    color: #666666;
+    text-align: left;
+}
+.wrap .main .pro-details .pro-parameter .parameter-title h5{
+     font:bold 30px/44px '微软雅黑';
+ }
+.wrap .main .pro-details .pro-parameter .parameter-title h6{
+    font: 24px/37px '微软雅黑';
+}
+.wrap .main .pro-details .pro-parameter .parameter-title p{
+    font: 18px/50px '微软雅黑';
+}
+.wrap .main .pro-details .pro-parameter .pro-price{
+    overflow: hidden;
+    background:#f2f2f2;
+    padding: 0 12px 0 30px;
+}
+.wrap .main .pro-details .pro-parameter .pro-price .price{
+    float: left;
+}
+.wrap .main .pro-details .pro-parameter .pro-price .price p{
+    font: 16px/35px '微软雅黑';
+}
+.wrap .main .pro-details .pro-parameter .pro-price .price p strong{
+    font-weight:normal;
+}
+.wrap .main .pro-details .pro-parameter .pro-price .price p span{
+    text-decoration: line-through;
+    padding-left:30px;
+}
+.wrap .main .pro-details .pro-parameter .pro-price .price p+p span{
+    text-decoration: none;
+    font-size: 24px;
+    color: #e4393c;
+    margin-top:3px;
+ }
+.wrap .main .pro-details .pro-parameter .pro-price .evaluate{
+    float: right;
+    font-size: 14px;
+}
+.wrap .main .pro-details .pro-parameter .pro-price .evaluate span{
+    display: block;
+    font: 16px/35px '微软雅黑';
+}
+.wrap .main .pro-details .pro-parameter .pro-price .evaluate a{
+    font-size: 14px;
+    color: #666;
+}
+.wrap .main .pro-details .pro-parameter .send-address,
+.wrap .main .pro-details .pro-parameter .size,
+.wrap .main .pro-details .pro-parameter .material,
+.wrap .main .pro-details .pro-parameter .pro-num,
+.wrap .main .pro-details .pro-parameter .purchase-cart,
+.wrap .main .pro-details .pro-parameter .collection-share
+{
+    overflow: hidden;
+}
+.wrap .main .pro-details .pro-parameter .send-address span,
+.wrap .main .pro-details .pro-parameter .size span,
+.wrap .main .pro-details .pro-parameter .material span,
+.wrap .main .pro-details .pro-parameter .pro-num span,
+.wrap .main .pro-details .pro-parameter .purchase-cart span,
+.wrap .main .pro-details .pro-parameter .collection-share span
+{
+    float: left;
+    text-align: left;
+    margin-right: 27px;
+    font: 18px/24px '微软雅黑';
+}
+.wrap .main .pro-details .pro-parameter .send-address{
+    margin:50px 0 24px;
+}
+.wrap .main .pro-details .pro-parameter .send-address input{
+    float: left;
+    width: 160px;
+    font: 14px/22px '微软雅黑';
+    border:1px solid #dfd9d9;
+    text-align: center;
+    color: #666;
+}
+
+
+
+.wrap .main .pro-details .pro-parameter .size dl{
+    overflow: hidden;
+}
+.wrap .main .pro-details .pro-parameter .size dl dd{
+    width: 78px;
+    text-align: center;
+     font: 14px/22px '微软雅黑';
+     border:1px solid #dfd9d9;
+     float: left;
+     margin:0 3px 3px 0;
+     padding:0 10px;
+    cursor: pointer;
+ }
+.wrap .main .pro-details .pro-parameter .size dl dd:hover{
+    border:1px solid #f25152;
+}
+.wrap .main .pro-details .pro-parameter .size dl dd a{
+    color: #666;
+}
+
+
+.wrap .main .pro-details .pro-parameter .material{
+      margin: 22px 0 38px;
+  }
+.wrap .main .pro-details .pro-parameter .material div{
+    float: left;
+    overflow: hidden;
+}
+.wrap .main .pro-details .pro-parameter .material div a{
+    float: left;
+    width: 100px;
+    height: 22px;
+    border:1px solid #dfd9d9;
+    text-align: center;
+    font: 14px/22px '微软雅黑';
+    color: #666;
+    margin:0 5px 0 0;
+}
+.wrap .main .pro-details .pro-parameter .material div a:hover{
+    border:1px solid #f25152;
+}
+
+
+.wrap .main .pro-details .pro-parameter .pro-num div{
+    overflow: hidden;
+    float: left;
+}
+.wrap .main .pro-details .pro-parameter .pro-num div button{
+    float: left;
+    width: 24px;
+    height: 22px;
+    border: 1px solid #dfd9d9;
+    text-align: center;
+   font-size: 18px;
+    color: #666;
+    background: #fff;
+}
+.wrap .main .pro-details .pro-parameter .pro-num div input{
+    width: 22px;
+    float: left;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    background: #fff;
+    border:1px solid #dfd9d9;
+    margin:0 12px;
+}
+.wrap .main .pro-details .pro-parameter .pro-num div p{
+    float: left;
+    margin-left:10px;
+    font-weight: normal;
+}
+
+
+
+.wrap .main .pro-details .pro-parameter .purchase-cart{
+   margin: 76px 0 38px;
+}
+.wrap .main .pro-details .pro-parameter .purchase-cart a{
+    float: left;
+    padding:0 15px;
+    text-align: center;
+    border:1px solid #f03639;
+    font:18px/28px '微软雅黑';
+    color: #eb383b;
+    margin-right: 58px;
+}
+.wrap .main .pro-details .pro-parameter .purchase-cart a+a{
+    background: #eb383b;
+    color: #fff;
+}
+
+.wrap .main .pro-details .pro-parameter .collection-share a{
+    float: left;
+    font: 14px/14px '微软雅黑';
+    color: #666;
+    margin-right: 26px;
+}
+.wrap .main .pro-details .pro-parameter .collection-share a img{
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+
+
+/*<!--hot-commodity  热门商品-->*/
+.wrap .main .pro-details .hot-commodity{
+    width: 298px;
+    height:auto;
+    border-left:1px solid #d2cece;
+    overflow: hidden;
+    float: left;
+    color: #666;
+    text-align: center;
+}
+.wrap .main .pro-details .hot-commodity .hot-title{
+    margin-left:20px;
+    position: relative;
+}
+.wrap .main .pro-details .hot-commodity .hot-title i{
+    position: absolute;
+    display: block;
+    width: 98px;
+    height: 1px;
+    background:#d0cece;
+    left: 0;
+    top:9px;
+}
+.wrap .main .pro-details .hot-commodity .hot-title i+i{
+    left: 64%;
+}
+.wrap .main .pro-details .hot-commodity .hot-title h5{
+   font:16px/16px '微软雅黑';
+}
+.wrap .main .pro-details .hot-commodity .hot-list{
+    margin-left: 20px;
+}
+.wrap .main .pro-details .hot-commodity .hot-list ul li{
+     border-bottom: 1px solid #d2cece;
+ }
+.wrap .main .pro-details .hot-commodity .hot-list ul li a{
+    display:block;
+    width: 100%;
+    text-align: center;
+    line-height: 150px;
+}
+.wrap .main .pro-details .hot-commodity .hot-list ul li div span{
+    font: 18px/24px '微软雅黑';
+}
+.wrap .main .pro-details .hot-commodity .hot-list ul li div p{
+    font: 16px/26px '微软雅黑';
+    margin-bottom:20px;
+}
+
+
+
+
+/*<!--推荐搭配 recommended-collocation-->*/
+
+.wrap .main .recommended-collocation{
+    margin: 72px 0 0 0;
+}
+.wrap .main .recommended-collocation .recommended-title{
+    border-bottom: 2px solid #f27116;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.wrap .main .recommended-collocation .recommended-title a{
+  float:left;
+    font: 16px/33px '微软雅黑';
+    color: #333333;
+    padding: 0 50px;
+    background: #fff;
+}
+.wrap .main .recommended-collocation .recommended-title a:hover{
+    background: #f27116;
+    color: #ffffff;
+}
+.wrap .main .recommended-collocation .recommended-title .on{
+    background: #f27116;
+    color: #ffffff;
+}
+
+
+
+.wrap .main .recommended-collocation .recommended-details{
+    overflow: hidden;
+}
+.wrap .main .recommended-collocation .recommended-details .product,
+.wrap .main .recommended-collocation .recommended-details .pro-collocation,
+.wrap .main .recommended-collocation .recommended-details .settlement{
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+.wrap .main .recommended-collocation .recommended-details .product a{
+    display: block;
+    line-height: 234px;
+    padding: 0 34px;
+}
+.wrap .main .recommended-collocation .recommended-details .product div span,
+.wrap .main .recommended-collocation .recommended-details .product div p{
+    display: block;
+    font: 18px/28px '微软雅黑';
+    color: #666;
+}
+.wrap .main .recommended-collocation .recommended-details .product div p span{
+    color: #e4393c;
+}
+.wrap .main .recommended-collocation .recommended-details .product {
+    overflow: hidden;
+}
+.wrap .main .recommended-collocation .recommended-title{
+    overflow: hidden;
+}.wrap .main .recommended-collocation .recommended-title{
+     overflow: hidden;
+ }.wrap .main .recommended-collocation .recommended-title{
+      overflow: hidden;
+  }
+.wrap .main .recommended-collocation .recommended-title{
+    overflow: hidden;
+}
+.wrap .main .recommended-collocation .recommended-title{
+    overflow: hidden;
+}
+.wrap .main .recommended-collocation .recommended-title{
+    overflow: hidden;
+}
+.wrap .main .recommended-collocation .recommended-title{
+    overflow: hidden;
+}
+.wrap .main .recommended-collocation .recommended-title{
+    overflow: hidden;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/banner.css">
+</head>
+<body>
+<div class="banner">
+    <ul class="img-box">
+        <li><a href="javascript:;"><img src="img/banner-1.jpg"></a></li>
+        <li><a href="javascript:;"><img src="img/banner-2.0.jpg"></a></li>
+        <li><a href="javascript:;"><img src="img/banner-3.jpg"></a></li>
+    </ul>
+    <div class="prev">shang</div>
+    <div class="next">shang</div>
+    <div class="pages">
+        <a href="javascript:;">1</a>
+        <a href="javascript:;">2</a>
+        <a href="javascript:;">3</a>
+    </div>
+</div>
+
+<script src="lib/jquery.min.js"></script>
+<script>
+    $(function(){
+        var banner = $('.banner');
+        var imgBox = banner.find('.img-box');
+        var imgList = imgBox.find('li');
+        var imgSrc = imgList.eq(0).find('img').attr('src');
+        var h, w, inter, len;
+        var imageObj = new Image();
+        w = banner.width();
+        len = imgList.length;
+        imageObj.src = imgSrc;
+        imageObj.onload = function () {
+            h = imageObj.height / imageObj.width * w;
+            initSize ();
+        };
+
+        function initSize () {
+            banner.css('height', h + 'px');
+            imgBox.css('width', w * len + 'px');
+            imgList.css('width', w + 'px');
+        }
+    })
+</script>
+</body>
+</html>
