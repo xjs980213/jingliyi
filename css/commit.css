@@ -11,6 +11,9 @@ img{border:none;vertical-align: middle;padding:0; margin:0;}
 input,button{outline: none;}
 ul,li{list-style: none;padding:0;margin:0;}
 strong{font-weight: normal;}
+i{font-style: normal;}
+button{
+    cursor: pointer;}
 
 .wrap .header .top .top-box,
 .wrap .header .logo-search-cart,
@@ -62,7 +65,7 @@ strong{font-weight: normal;}
 }
 .wrap .header .logo-search-cart .search{
     float: left;
-    width:760px;
+    width:746px;
     padding:0 30px;
     text-align: right;
 
@@ -95,12 +98,14 @@ strong{font-weight: normal;}
 }
 .wrap .header .logo-search-cart .cart a{
     font:16px/74px '微软雅黑';
-    color: #333;
+    color: #d9240e;
 }
 .wrap .header .logo-search-cart .cart a img{
     margin:-5px 10px 0 0;
 }
-
+.wrap .header .logo-search-cart .cart span{
+    color: #d9240e;
+}
 /*<!--头部导航  nav-->*/
 .wrap .header .nav{
     background: #f7bf46;

@@ -349,6 +349,7 @@
 
 .wrap .main .recommended-collocation .recommended-details{
     overflow: hidden;
+    border-bottom: 1px solid #a3a3a3;
 }
 .wrap .main .recommended-collocation .recommended-details .product,
 .wrap .main .recommended-collocation .recommended-details .pro-collocation,
@@ -356,6 +357,7 @@
     float: left;
     overflow: hidden;
     text-align: center;
+    padding-bottom: 12px;
 }
 .wrap .main .recommended-collocation .recommended-details .product a{
     display: block;
@@ -363,37 +365,194 @@
     padding: 0 34px;
 }
 .wrap .main .recommended-collocation .recommended-details .product div span,
-.wrap .main .recommended-collocation .recommended-details .product div p{
+.wrap .main .recommended-collocation .recommended-details .product div p,
+.wrap .main .recommended-collocation .pro-collocation ul li div div span,
+.wrap .main .recommended-collocation .pro-collocation ul li div div p{
     display: block;
     font: 18px/28px '微软雅黑';
     color: #666;
 }
-.wrap .main .recommended-collocation .recommended-details .product div p span{
+.wrap .main .recommended-collocation .recommended-details .product div p span,
+.wrap .main .recommended-collocation .pro-collocation ul li div div p span{
     color: #e4393c;
 }
-.wrap .main .recommended-collocation .recommended-details .product {
-    overflow: hidden;
+.wrap .main .recommended-collocation .recommended-details .plus {
+    float: left;
+    font-size:40px;
+    color: #666;
+    margin-right: 34px;
 }
-.wrap .main .recommended-collocation .recommended-title{
+
+
+
+.wrap .main .recommended-collocation .pro-collocation{
+    width: 706px;
+    position: relative;
+    height: auto;
+}
+.wrap .main .recommended-collocation .pro-collocation .prev,
+.wrap .main .recommended-collocation .pro-collocation .next{
+    position: absolute;
+    color: #666;
+    top: 46%;
+}
+.wrap .main .recommended-collocation .pro-collocation .prev{
+    left: 0;
+}
+.wrap .main .recommended-collocation .pro-collocation .next{
+    right: 0;
+}
+.wrap .main .recommended-collocation .pro-collocation .collocation-wrap{
+position: relative;
+width: 619px;
+height: 100%;
+margin: 0 40px;
+overflow: hidden;
+}
+.wrap .main .recommended-collocation .pro-collocation .collocation-wrap ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.wrap .main .recommended-collocation .pro-collocation ul li{
     overflow: hidden;
-}.wrap .main .recommended-collocation .recommended-title{
-     overflow: hidden;
- }.wrap .main .recommended-collocation .recommended-title{
-      overflow: hidden;
+    float: left;
+    width: 218px;
+}
+.wrap .main .recommended-collocation .pro-collocation ul li .box{
+    float: left;
+    width: 180px;
+    text-align: center;
+    border: 1px solid #a3a3a3;
+}
+.wrap .main .recommended-collocation .pro-collocation ul li .box a{
+    display: block;
+    width:100%;
+    line-height: 232px;
+}
+.wrap .main .recommended-collocation .pro-collocation ul li .box div span{
+    font: 16px/28px '微软雅黑';
+}
+.wrap .main .recommended-collocation .pro-collocation ul li .plus{
+    float: left;
+    margin: 0 3px;
+}
+
+
+
+.wrap .main .recommended-collocation .settlement{
+     width: 221px;
+ }
+.wrap .main .recommended-collocation .settlement span,
+.wrap .main .recommended-collocation .settlement p{
+    display: block;
+    font: 16px/33px '微软雅黑';
+    color: #666666;
+    margin-top: 38px;
+}
+.wrap .main .recommended-collocation .settlement p {
+    margin: 0;
+}
+.wrap .main .recommended-collocation .settlement span strong,
+.wrap .main .recommended-collocation .settlement p span,
+.wrap .main .recommended-collocation .settlement p span strong{
+    display: inline-block;
+    color: #e4393c;
+    margin: 0 0 18px 0;
+}
+.wrap .main .recommended-collocation .settlement a{
+    display:block;
+    border:2px solid #a3a3a3;
+    width: 114px;
+    height: 26px;
+    text-align: center;
+    font: 16px/26px '微软雅黑';
+    color: #666;
+    margin: 0 auto 20px;
+}
+.wrap .main .recommended-collocation .settlement .on{
+    border: 2px solid #eb383b;
+}
+.wrap .main .recommended-collocation .settlement a:hover{
+    border: 2px solid #eb383b;
+}
+.wrap .main .recommended-collocation .settlement a img{
+    vertical-align: middle;
+    width: 22px;
+    height: 20px;
+    margin-top: -3px;
+}
+
+
+
+
+
+
+/*<!--产品介绍-->*/
+.wrap .main .pro-introduce .introduce-title{
+      border-bottom: 2px solid #f27116;
+    margin: 76px 0 36px;
+    overflow: hidden;
   }
-.wrap .main .recommended-collocation .recommended-title{
+.wrap .main .pro-introduce .introduce-title a{
+    font: 16px/33px '微软雅黑';
+    color:#333;
+    padding: 0 45px;
+    background: #f9cb44;
+    float: left;
+    margin-right: 23px;
+}
+ .wrap .main .pro-introduce .introduce-title .on{
+    color: #fff;
+     background: #f27116;
+ }
+.wrap .main .pro-introduce .introduce-title a:hover{
+    color: #fff;
+    background: #f27116;
+}
+
+
+.wrap .main .pro-introduce .tab-introduce .details-box{
+    border:1px solid #a3a3a3;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box .box-nav{
+    overflow: hidden;
+    padding: 0 30px;
+    background: #f2f2f2;
+    border-bottom: 1px solid #a3a3a3;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box .box-nav span{
+    font: 16px/45px '微软雅黑';
+    color: #333;
+    float: left;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box .box-nav a{
+    font: 16px/45px '微软雅黑';
+    color: #333;
+    float: right;
+}
+
+.wrap .main .pro-introduce .tab-introduce .details-box .box-content{
+    padding: 0 110px;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box .box-content ul{
     overflow: hidden;
 }
-.wrap .main .recommended-collocation .recommended-title{
-    overflow: hidden;
+.wrap .main .pro-introduce .tab-introduce .details-box .box-content ul li{
+    float: left;
+    text-align: left;
+    font: 16px/45px '微软雅黑';
+    color: #666;
+   width: 360px;
 }
-.wrap .main .recommended-collocation .recommended-title{
-    overflow: hidden;
+.wrap .main .pro-introduce .tab-introduce .details-box .box-content ul li span{
+    margin-left: 15px;
 }
-.wrap .main .recommended-collocation .recommended-title{
-    overflow: hidden;
+
+.picture-display{
+    margin-bottom: 60px;
 }
-.wrap .main .recommended-collocation .recommended-title{
-    overflow: hidden;
-}
+
+
 

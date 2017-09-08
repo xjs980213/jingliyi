@@ -1,4 +1,4 @@
-//tab 放大镜效果
+//tab 放大镜效果 以及  一些特殊的样式
 $(function(){
     var tabMagnifier = $('.tab-magnifier'),
         bigPicture = $('.big-picture'),
@@ -13,12 +13,74 @@ $(function(){
     var imgArr = ["img/da1.png","img/da2.png","img/da3.png","img/da4.png"];
     var caoDaArr  = ["img/caoda1.png","img/caoda2.png","img/caoda3.png","img/caoda4.png"]
 
+    //样式
+    Style()
+
+
    //初始化页面
     Initialization();
+
+
     //tab切换
     tab();
+
+
     //放大镜
     magnifier();
+
+//精选tab
+    selected();
+
+
+
+
+
+    function selected(){
+        var tabWrap = $('.wrap .main .recommended-collocation .pro-collocation .collocation-wrap'),
+            UL      = $('.wrap .main .recommended-collocation .pro-collocation ul'),
+            tabLength = $('.wrap .main .recommended-collocation .pro-collocation ul li').length,
+            lis       = $('.wrap .main .recommended-collocation .pro-collocation ul li'),
+            W         = $('.wrap .main .recommended-collocation .pro-collocation ul li').width(),
+            prev      = $('.wrap .main .recommended-collocation .pro-collocation .prev'),
+            next      = $('.wrap .main .recommended-collocation .pro-collocation .next');
+        $('.wrap .main .recommended-collocation .pro-collocation .collocation-wrap ul').width(tabLength*W)
+        var to = 0,
+            onOff = true,
+            timer = null;
+        prev.click(function(){
+            if(!this.onOff){
+                to++;
+                UL.animate({ left:-(to*W) +'px'},200,'linear',function(){
+                    this.onOff =!this.onOff;
+                })
+                if(to >= tabLength-4){
+                    to=tabLength-4;
+                }
+            }
+        })
+        next.click(function(){
+            if(!this.onOff){
+                if(to <= 0){
+                    to=1;
+                }
+                to--;
+                UL.animate({ left:-(to*W) +'px'},200,'linear',function(){
+                    this.onOff =!this.onOff;
+                })
+
+            }
+        })
+
+
+    }
+    function Style(){
+        var proH = $('.wrap .main .recommended-collocation .recommended-details .product').height() +'px';
+        $('.wrap .main .recommended-collocation .recommended-details .plus ').css({
+            'line-height':proH
+        });
+        $('.wrap .main .recommended-collocation .pro-collocation').height(proH);
+        $('.wrap .main .recommended-collocation .settlement').height(proH);
+    }
     function magnifier(){
         bigPicture[0].onmouseleave = function(){
             enlarge[0].style.display ='none';
@@ -69,6 +131,5 @@ $(function(){
             }
         }
     }
-
 })
 

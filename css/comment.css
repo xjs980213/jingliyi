@@ -1,0 +1,91 @@
+/*评价也*/
+.wrap .main .pro-introduce .tab-introduce .details-box{
+    padding: 0 18px;
+    border:none;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box .praise{
+    width: 100%;
+    border:1px solid #999;
+    overflow: hidden;
+    padding: 18px 0;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box .praise .percentage{
+    float: left;
+    width: 248px;
+    text-align: center;
+
+}
+.wrap .main .pro-introduce .tab-introduce .details-box .praise .percentage h5{
+    font: 24px/44px '微软雅黑';
+    color: #e96b0e;
+    letter-spacing:5px;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box .praise .percentage span{
+    font: 36px/51px '微软雅黑';
+    color: #e96b0e;
+    letter-spacing:7px;
+}
+
+.wrap .main .pro-introduce .tab-introduce .details-box .praise .evaluate-num{
+    overflow: hidden;
+    float: left;
+    width: 670px;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box .praise .evaluate-num a{
+    float: left;
+    width: 203px;
+    text-align: center;
+    border:1px solid #e96b0e;
+    color: #666;
+    font: 18px/23px '微软雅黑';
+    margin:8px 15px 8px 0;
+
+}
+
+.wrap .main .pro-introduce .tab-introduce .details-box .praise .comment-discount{
+    float: left;
+    width: 246px;
+    text-align: center;
+    color: #666666;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box .praise .comment-discount p{
+    font: 18px/36px '微软雅黑';
+}
+.wrap .main .pro-introduce .tab-introduce .details-box .praise .comment-discount a{
+    display: block;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box .praise .comment-discount .discount{
+    font: 18px/18px '微软雅黑';
+    color: #e96b0e;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box .praise .comment-discount .comment-immediately{
+    font: 16px/24px '微软雅黑';
+    color: #fff;
+    width: 106px;
+    text-align: center;
+    margin: 0 auto;
+    background: #ee6e18;
+    margin-top: 9px;
+}
+
+
+.wrap .main .pro-introduce .tab-introduce .details-box{
+    padding: 0 18px;
+    border:none;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box{
+    padding: 0 18px;
+    border:none;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box{
+    padding: 0 18px;
+    border:none;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box{
+    padding: 0 18px;
+    border:none;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box{
+    padding: 0 18px;
+    border:none;
+}

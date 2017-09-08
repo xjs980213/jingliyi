@@ -2,9 +2,84 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>注册</title>
+    <link rel="shrotcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/commit.css">
+    <link rel="stylesheet" href="css/register.css">
 </head>
 <body>
-注册
+<div class="wrap">
+    <div class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/log.png" alt="">
+            </a>
+        </div>
+        <p>欢迎注册</p>
+        <div class="login-reg">
+           <p>已经注册，现在就<a href="login.html">登录</a></p>
+        </div>
+
+    </div>
+    <div class="main">
+        <div class="register">
+            <div class="form-box">
+                <form>
+                    <div class="form-group">
+                        <div>
+                            <label><i class="red user"></i><span>用户名</span></label>
+                            <input type="text" value="4-20位字符，可使用中英文，数字">
+                        </div>
+                        <p class="error user">输入的用户名格式不对</p>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <label><i class="red"></i><span>设置密码</span></label>
+                            <input type="text" value="6-20位大小写英文字母，数字或符号">
+                        </div>
+                        <p class="error password1">输入的密码格式不对</p>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <label><i class="red"></i><span>确认密码</span></label>
+                            <input type="text" value="再次确认密码">
+                        </div>
+                        <p class="error password2">两次密码输入不一致</p>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <label>邀请码</label>
+                            <input type="text" value="邀请码">
+                        </div>
+                        <p class="error code">邀请码不对</p>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <label>验证码</label>
+                            <input type="text" value="">
+                            <p><img src="img/code.png" alt=""></p>
+                            <a href="javascript:;" class="change">换一张</a>
+                        </div>
+                        <p class="error verifon-code">验证码不对</p>
+                    </div>
+                    <p>
+                        <input type="checkbox" checked="checkbox">
+                        我已阅读并同意 <a href="javascript:;">《金利怡用户注册协议》</a>
+                    </p>
+                    <button class="reg">立即注册</button>
+                </form>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="footer">
+        <p class="copyright">Copyright © 2004 - 2017  京东JD.com 版权所有|消费者维权热线：4006067733经营证照</p>
+    </div>
+</div>
+<script src="lib/jquery.min.js"></script>
+<script src="js/nav-menu.js"></script>
+
 </body>
 </html>

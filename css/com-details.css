@@ -1,0 +1,246 @@
+/*评价详情*/
+.wrap .main{
+    width: 100%;
+    background: #f5f4f4;
+}
+.wrap .main .evaluate-box{
+    width: 1200px;
+    padding:30px 0 117px 0;
+    overflow: hidden;
+    margin: 0px auto;
+}
+.wrap .main .evaluate-box .list-nav{
+    float: left;
+    background: #fff;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+.wrap .main .evaluate-box .list-nav dl dd a,
+.wrap .main .evaluate-box .list-nav dl dt{
+ display: block;
+    padding: 0 40px;
+    font: 14px/24px '微软雅黑';
+    color: #666666;
+}
+.wrap .main .evaluate-box .list-nav dl dt{
+    font: 16px/24px '微软雅黑';
+    color: #333;
+}
+.wrap .main .evaluate-box .list-nav dl{
+    margin: 8px 0 14px;
+}
+.wrap .main .evaluate-box .list-nav dl .on a{
+    color: #d81f06;
+}
+.wrap .main .evaluate-box .list-nav dl dd a:hover{
+    color: #d81f06;
+}
+.wrap .main .evaluate-box .evaluate-con{
+    float: left;
+    width: 1000px;
+}
+.wrap .main .evaluate-box .evaluate-con h5{
+    background: #fff;
+    font: 16px/58px '微软雅黑';
+    color: #333;
+    padding:0 0 0 30px;
+    border-radius: 10px;
+    margin: 0 0 30px 0;
+}
+.wrap .main .evaluate-box .evaluate-con .con-box{
+    background: #fff;
+    border-radius: 10px;
+    padding:0 30px;
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .title{
+    overflow: hidden;
+    padding:12px 0;
+
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .title h6{
+    font: 16px/20px '微软雅黑';
+    color: #d81f06;
+    float: left;
+    position: relative;
+    border-bottom: 1px solid #d81e06;
+    margin-right:90px;
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .title h6 span{
+    display: block;
+    position: absolute;
+    width: 16px;
+    height:16px;
+    border-radius: 50%;
+    background: #d81f06;
+    text-align: center;
+    font: 12px/16px '微软雅黑';
+    color: #fff;
+    top: 0 ;
+    right: -20px;
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .title div{
+    float: left;
+    overflow: hidden;
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .title div a{
+    font: 16px/20px '微软雅黑';
+    color: #333333;
+    float: left;
+    position: relative;
+    margin-right: 50px;
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .title div a span{
+    display: block;
+    position: absolute;
+    width: 16px;
+    height:16px;
+    border-radius: 50%;
+    background: #d81f06;
+    text-align: center;
+    font: 12px/16px '微软雅黑';
+    color: #fff;
+    top: 0 ;
+    right: -20px;
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .order-title{
+    overflow: hidden;
+    background: #f5f4f4;
+    padding: 0 20px;
+    margin: 0 0 20px;
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .order-title a,
+.wrap .main .evaluate-box .evaluate-con .con-box .order-title span{
+    float: left;
+    font: 14px/30px '微软雅黑';
+    color: #666;
+    width: 132px;
+    text-align: center;
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .order-title a,
+.wrap .main .evaluate-box .evaluate-con .con-box .order-title span:nth-child(2){
+    width: 250px;
+    text-align: left;
+}
+
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .title{
+    padding: 0 40px;
+    background: #f5f4f4;
+    overflow: hidden;
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .title span{
+    float: left;
+    font:14px/32px '微软雅黑';
+    color: #333;
+    width:150px;
+    text-align: left;
+
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .details{
+    overflow: hidden;
+    padding: 12px 40px;
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .details div{
+    float: left;
+    width: 124px;
+    text-align:right;
+    font: 14px/70px '微软雅黑';
+    color: #333;
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .details .text{
+    width: 230px;
+    text-align: left;
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .details .price{
+    margin-top: 15px;
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .details .price span,
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .details .price a{
+    display: block;
+    font: 14px/18px '微软雅黑';
+    color: #333;
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .details .tp{
+    width:100px;
+    text-align: left;
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .details .text p{
+    font: 14px/23px '微软雅黑';
+    color: #333;
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .score{
+    overflow: hidden;
+    background: #deebfe;
+    padding:30px 40px;
+}
+
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .score .tp,
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .score .packing,
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .score .speed,
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .score .attitude{
+    float: left;
+    overflow: hidden;
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .score .tp{
+    width: 330px;
+    text-align: left;
+
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .score .tp img{
+    float: left;
+    margin-right: 26px;
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .score .tp div{
+    float: left;
+    margin-top: 12px;
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .score .tp div h6{
+    font: 14px/24px '微软雅黑';
+    color: #333;
+}
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .score .tp div {
+    font: 12px/24px '微软雅黑';
+    color: #666;
+}
+
+
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .score .packing,
+ .wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .score .speed,
+ .wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .score .attitude{
+     width: 170px;
+     text-align: center;
+    margin-top: 12px;
+ }
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .score .packing span,
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .score .speed span,
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .score .attitude span{
+    font: 14px/24px '微软雅黑';
+    color: #666;
+}
+
+
+/*星星*/
+.stars{
+    overflow: hidden;
+    margin:0 auto;
+    text-align: center;
+}
+
+
+.wrap .main .evaluate-box .evaluate-con .con-box .evaluat-list ul li .score .submit{
+    width: 200px;
+    background: #e4393c;
+    margin: 45px auto 0;
+    outline: none;
+    border:none;
+    cursor: pointer;
+    font: 14px/40px '微软雅黑';
+    color: #fff;
+}
+.wrap .main .page{
+    margin: 0;
+    padding: 20px 30px;
+    background: #fff;
+}
+.wrap .main .page ul{
+    padding: 0;
+}

@@ -1,0 +1,168 @@
+/*收货地址*/
+.address .address-list{
+    overflow: hidden;
+}
+.address .address-list div{
+    width: 282px;
+    height: 129px;
+    float: left;
+    background: url("../img/adess-1.png") no-repeat;
+    padding: 26px 35px 0;
+    color: #666;
+    position: relative;
+    margin-right: 72px;
+}
+.address .address-list div p{
+    font: 16px/35px "微软雅黑" ;
+}
+.address .address-list div p:nth-child(1){
+    border-bottom:1px solid #c8c8c8;
+}
+.address .address-list div p:nth-child(3){
+    font: 16px/16px "微软雅黑" ;
+}
+.address .address-list div .modify{
+    font: 16px/35px "微软雅黑" ;
+    background: #fff;
+    border: none;
+    color: #f1a93e;
+}
+.address .address-list div .default{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    background: #e0e1e2;
+    color: #fff;
+    padding: 0 10px;
+    font: 18px/28px '微软雅黑';
+
+
+}
+.address .address-list div:nth-child(1){
+    background: url("../img/adess.png") no-repeat;
+}
+.address .address-list div:nth-child(3n){
+    margin-right: 0;
+    text-align: center;
+    line-height: 100px;
+}
+
+.address .whole-administration{
+    overflow: hidden;
+}
+.address .whole-administration a{
+    font:16px/41px '微软雅黑';
+    color: #f1a93e;
+    float: left;
+}
+.address .whole-administration .administration{
+    float: right;
+}
+
+
+
+.cart .cart-list table tbody tr td:nth-child(1){
+    width: 47%;
+    text-align: left;
+    overflow: hidden;
+}
+.cart .cart-list table tbody tr td:nth-child(1) img{
+    float: left;
+    margin: 0 60px;
+}
+.cart .cart-list table tbody tr td:nth-child(1) div {
+    float: left;
+}
+.cart .cart-list table tbody tr td:nth-child(1) div p{
+    font: 18px/36px '微软雅黑';
+}
+.cart .cart-list table tbody tr td:nth-child(2){
+    width:135px;
+    text-align: center;
+}
+
+.cart .cart-list table tbody tr td{
+    text-align: center;
+    width:152px;
+}
+.cart .cart-list table tbody tr td .num{
+    border: none;
+    margin-left: 22px;
+}
+
+.cart .payment{
+    padding: 0 60px;
+}
+.cart .payment .form-choice form{
+    overflow: hidden;
+}
+.cart .payment .form-choice form .form-group{
+    width:50%;
+    float: left;
+}
+.cart .payment .form-choice form .form-group label{
+     font: 16px/46px '微软雅黑';
+     color: #333;
+     float: left;
+    margin-right: 35px;
+ }
+.cart .payment .form-choice form .form-group div{
+    font: 16px/46px '微软雅黑';
+    color: #333;
+    float: left;
+    overflow: hidden;
+}
+.cart .payment .form-choice form .form-group div p{
+    float: left;
+    margin-right: 25px;
+}
+.cart .payment .form-choice form .form-group div p input[type=checkbox]{
+    vertical-align: middle;
+    margin:0 15px 0 0;
+}
+.cart .payment .form-choice form .form-group div button{
+    border:none;
+    background: #f5f4f4;
+    font-size: 16px;
+    color: #f1a93e;
+
+}
+.cart .payment .form-choice form .form-group div input[type=text]{
+    width: 200px;
+    text-indent: 1em;
+    font: 14px/18px '微软雅黑';
+    color: #666;
+}
+
+
+
+.cart-settlement{
+    margin-top: 0;
+}
+.cart-settlement div{
+    width: 100%;
+    text-align: right;
+    overflow: hidden;
+}
+.cart-settlement div .shop-crat{
+    font: 14px/43px '微软雅黑';
+    color: #1e28fc;
+    margin-right: 38px;
+}
+.cart-settlement div .shop-crat img{
+    vertical-align: middle;
+    margin-right:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

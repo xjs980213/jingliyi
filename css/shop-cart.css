@@ -1,0 +1,225 @@
+/*我的购物车*/
+.logo-search-cart{
+    border-bottom: 4px solid #e6e6e6;
+}
+.shopping-steps{
+    overflow: hidden;
+    margin: 36px auto;
+}
+.shopping-steps div p,
+.shopping-steps img{
+    float: left;
+    overflow: hidden;
+
+}
+.shopping-steps div{
+    overflow: hidden;
+    float: left;
+}
+.shopping-steps div p strong,
+.shopping-steps div p span{
+    display: inline-block;
+}
+.shopping-steps div p strong{
+    font: 24px/46px '微软雅黑';
+    color: #666;
+}
+.shopping-steps div p span{
+    font: 18px/46px '微软雅黑';
+    color: #666;
+}
+.shopping-steps div p {
+    line-height: 46px;
+    width: 363px;
+    text-align: center;
+    background: #f5f4f4;
+}
+.shopping-steps div:nth-child(1) p{
+    background: #e6e6e6;
+}
+.shopping-steps img{
+    height: 49px;
+}
+
+
+
+.cart .title{
+    overflow: hidden;
+    text-align: left;
+    margin: 0 0 24px 0;
+}
+.cart .title h5{
+    font: 20px/20px '微软雅黑';
+    color: #000;
+    float: left;
+    margin-right: 12px;
+}
+.cart .title p{
+    font: 16px/26px '微软雅黑';
+    color: #666666;
+    float: left;
+}
+
+.cart .cart-list table{
+    width:100%;
+    height:auto;
+    border:1px solid #d6d6d6;
+    background: #d6d6d6;
+}
+.cart .cart-list table thead{
+    background: #fff;
+    z-index: 88;
+    width:100%;
+}
+.cart .cart-list table thead tr{
+    width:100%;
+    overflow: hidden;
+    background: #fff;
+
+}
+.cart .cart-list table thead tr th{
+    float: left;
+    width: 12.5%;
+    font: 18px/30px '微软雅黑';
+    color: #666;
+    border-right: 1px solid #666;
+    margin: 17px 0;
+
+}
+.cart .cart-list table thead tr th:nth-child(5){
+    border-right: none;
+}
+.cart .cart-list table thead tr th:nth-child(1) {
+    width: 47%;
+    border-right:none;
+}
+
+
+
+.cart .cart-list table tbody tr{
+    overflow: hidden;
+    background: #fff;
+
+}
+.cart .cart-list table tbody tr td{
+    float: left;
+    margin: 30px 0 15px;
+    width: 170px;
+    text-align: right;
+    font: 18px/36px '微软雅黑';
+    color: #666;
+}
+.cart .cart-list table tbody tr td:nth-child(1){
+    line-height: 90px;
+    width: 75px;
+    text-align: center;
+}
+.cart .cart-list table tbody tr td:nth-child(2){
+    overflow: hidden;
+    width: 420px;
+    text-align: left;
+}
+.cart .cart-list table tbody tr td:nth-child(2) div,
+.cart .cart-list table tbody tr td:nth-child(2) img{
+    float: left;
+}
+.cart .cart-list table tbody tr td:nth-child(2) img{
+    margin-right: 60px;
+}
+.cart .cart-list table tbody tr td:nth-child(2) div p{
+    font: 18px/36px '微软雅黑';
+}
+.cart .cart-list table tbody tr td .num{
+    width: 28px;
+    height: 20px;
+    text-align: center;
+    border:1px solid #d6d6d6;
+}
+.cart .cart-list table tbody tr td button{
+    width: 24px;
+    height: 24px;
+    border:1px solid #d6d6d6;
+    text-align: center;
+    background: #fff;
+}
+
+.cart .cart-list table tbody tr td:nth-child(5){
+    text-align: center;
+}
+.cart .cart-list table tbody tr td:nth-child(5) span{
+    padding-left: 20px;
+}
+.cart .cart-list table tbody tr td:nth-child(6){
+    text-align: center;
+
+}
+.cart .cart-list table tbody tr td:nth-child(6) button{
+    width: 30%;
+    border: none;
+    font: 18px/36px '微软雅黑';
+    color: #666;
+    cursor: pointer;
+}
+
+
+.cart .payment{
+    background: #f5f4f4;
+    border: 2px solid #d6d6d6;
+    border-top: none;
+    overflow: hidden;
+    padding: 0 60px 0 35px;
+}
+.cart .payment .chek{
+    float: left;
+    font: 16px/134px '微软雅黑';
+    color: #666;
+}
+.cart .payment .chek input{
+    vertical-align: middle;
+}
+.cart .payment .total{
+    float: right;
+    margin-top: 23px;
+}
+.cart .payment .total p{
+    font: 16px/40px '微软雅黑';
+    color: #666;
+}
+.cart .payment .total p+p span{
+    color: #e4393c;
+}
+
+
+.cart-settlement{
+    overflow: hidden;
+    margin: 45px 0 68px;
+}
+.cart-settlement .continue{
+    float: left;
+    font: 20px/43px '微软雅黑';
+    color: #666;
+    background: #f5f4f4;
+    padding: 0 36px;
+}
+.cart-settlement .settlement{
+    float: right;
+    font: 20px/43px '微软雅黑';
+    color: #fff;
+    background: #e4393c;
+    padding: 0 54px;
+}
+
+
+
+.wrap .main .perceptual ul li{
+    width: 265px;
+    padding: 0 12px;
+    border:1px solid #d6d6d6;
+    margin-right: 12px;
+}
+.wrap .main .perceptual ul li a{
+    line-height: 190px;
+}
+.wrap .main .perceptual ul li:nth-child(4n){
+    margin-right: 0;
+}
