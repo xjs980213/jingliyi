@@ -8,6 +8,7 @@
     border:1px solid #999;
     overflow: hidden;
     padding: 18px 0;
+    margin-bottom: 36px;
 }
 .wrap .main .pro-introduce .tab-introduce .details-box .praise .percentage{
     float: left;
@@ -69,23 +70,115 @@
 }
 
 
-.wrap .main .pro-introduce .tab-introduce .details-box{
-    padding: 0 18px;
+.wrap .main .pro-introduce .tab-introduce .details-box .box-content{
+    padding: 0;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box .box-content .title-strip{
+    overflow: hidden;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box .box-content .title-strip a{
+    float: left;
+    width: 185px;
+    border: 1px solid #999999;
+    border-bottom:none;
+    font: 18px/30px '微软雅黑';
+    color: #666;
+    text-align: center;
+    margin-right: 5px;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box .box-content .title-strip a:hover{
+    border: 1px solid #e96b0e;
+    border-bottom:none;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box .box-content .title-strip .on{
+    border: 1px solid #e96b0e;
+    border-bottom:none;
+}
+
+.wrap .main .pro-introduce .tab-introduce .details-box .box-content .comment-list ul li{
+    float: none;
+    overflow: hidden;
+    width: 100%;
+    border-bottom: 1px solid #999;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box .box-content .comment-list ul li:last-child{
     border:none;
 }
-.wrap .main .pro-introduce .tab-introduce .details-box{
-    padding: 0 18px;
-    border:none;
+.wrap .main .pro-introduce .tab-introduce .details-box .box-content .comment-list ul li .left{
+    width: 250px;
+    text-align: center;
+    float: left;
 }
-.wrap .main .pro-introduce .tab-introduce .details-box{
-    padding: 0 18px;
-    border:none;
+.wrap .main .pro-introduce .tab-introduce .details-box .box-content .comment-list{
+    border:1px solid #999999;
 }
-.wrap .main .pro-introduce .tab-introduce .details-box{
-    padding: 0 18px;
-    border:none;
+.wrap .main .pro-introduce .tab-introduce .details-box .box-content .comment-list ul li .left a{
+ display: block;
+    line-height: 253px;
 }
-.wrap .main .pro-introduce .tab-introduce .details-box{
-    padding: 0 18px;
-    border:none;
+.wrap .main .pro-introduce .tab-introduce .details-box .box-content .comment-list ul li .left p{
+    font: 18px/18px '微软雅黑';
+    padding: 0 0 84px 0;
+}
+
+.wrap .main .pro-introduce .tab-introduce .details-box .box-content .comment-list ul li .right{
+    float: left;
+    width: 712px;
+    padding: 0 150px 0 50px;
+}
+.stars{
+    margin: 30px 0;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box .box-content .comment-list ul li .right p{
+    font: 18px/29px '微软雅黑';
+    text-indent: 2em;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box .box-content .comment-list ul li .right .tp{
+    margin: 28px 0 20px 28px;
+}
+.wrap .main .pro-introduce .tab-introduce .details-box .box-content .comment-list ul li .right .tp img{
+    margin: 0 12px 0 0;
+}
+.time{
+    overflow: hidden;
+}
+.time .time-left{
+    float: left;
+    overflow: hidden;
+}
+.time .time-left p{
+    float: left;
+    color: #666666;
+}
+.time-right{
+    float: right;
+}
+.time-right .like{
+    margin-right: 50px;
+}
+.time-right .like img{
+    margin-top:-3px ;
+}
+.time-right a{
+    font: 18px/29px '微软雅黑';
+    color: #666666;
+}
+.time-right .questions{
+    border:1px solid #999999;
+    padding: 0 10px;
+    text-align: center;
+}
+
+
+.wrap .main .pro-introduce .tab-introduce .details-box .box-content ul li{
+     width: 68px;
+     text-align: center;
+ }
+
+.wrap .main .pro-introduce .tab-introduce .details-box .box-content ul li a{
+   padding: 0;
+}
+.wrap .main .page ul{
+    padding-left: 90px
+;
 }

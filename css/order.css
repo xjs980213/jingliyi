@@ -1,0 +1,16 @@
+/*我的订单页*/
+.complete span{
+    display: block;
+    line-height: 18px;
+    margin-top: 15px;
+    color: #e96b0e;
+}
+.complete a{
+    display: block;
+    line-height: 18px;
+    color: #666;
+}
+.evaluat-list ul li{
+    border: 1px solid #e4e2e2;
+    margin: 0 0 20px;
+}

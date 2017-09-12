@@ -1,0 +1,248 @@
+.wrap{
+    position: relative;
+}
+.success,
+.failure{
+    position: absolute;
+    width: 100%;
+    background: rgba(182,182,182,.5);
+}
+.success .success-box,
+.failure .failure-box{
+    width: 880px;
+    background: #fff;
+    z-index: 9999;
+    margin: 130px auto;
+    overflow: hidden;
+    padding: 40px 60px 80px;
+}
+.success .success-box img,
+.failure .failure-box img{
+    float: left;
+    margin:80px 120px 45px 0;
+}
+.success .success-box div,
+.failure .failure-box div{
+    float: left;
+}
+.success .success-box div h4,
+.failure .failure-box div h4{
+    font:48px/118px '微软雅黑';
+    color:#d81e06
+}
+.success .success-box div p,
+.failure .failure-box div p{
+    font:18px/30px '微软雅黑';
+    color:#000000;
+}
+.success .success-box div div,
+.failure .failure-box div div{
+    overflow: hidden;
+    margin-top: 70px;
+    width: 100%;
+}
+.success .success-box div div a,
+.failure .failure-box div div a{
+    font:14px/24px '微软雅黑';
+    color: #fff;
+    background: #ee6e18;
+    border-radius: 20px;
+    padding: 0 9px;
+    float: left;
+}
+.success .success-box div div a+a,
+.failure .failure-box div div a+a{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.order-success{
+    background: #f5f4f4;
+    padding: 26px 160px;
+    overflow: hidden;
+}
+.order-success .qr{
+    margin-right: 64px;
+    float: left;
+}
+
+.order-success .details{
+    float: left;
+}
+.order-success .details .order-number p{
+    font: 18px/34px '微软雅黑';
+    color: #333333;
+}
+.order-success .details .order-number{
+    margin-bottom: 18px;
+}
+.order-success .details .order-number p+p{
+    font: 14px/14px '微软雅黑';
+    color: #333333;
+}
+.order-success .details p{
+    font: 18px/23px '微软雅黑';
+    color: #333333;
+}
+
+
+.com-pay{
+    background: #f5f4f4;
+    border-top: 3px solid #e6e6e6;
+    border-bottom: 3px solid #e6e6e6;
+    padding: 40px 150px;
+    margin: 50px auto;
+
+}
+
+.com-pay .agriculture{
+    overflow: hidden;
+    border: 4px solid #959ed8;
+    line-height: 80px;
+}
+.com-pay .agriculture .checked{
+    float: left;
+    width: 15px;
+    height: 15px;
+    border-radius:50%;
+    background: #bbb7b7;
+    margin: 34px 0 0 36px;
+
+}
+.com-pay .agriculture .checked i{
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius:50%;
+    background: #000;
+    margin: 5px auto;
+}
+.com-pay .agriculture img{
+    float: left;
+    margin: 24px 16px;
+}
+.com-pay .agriculture p{
+    float: left;
+    font: 18px/80px '微软雅黑';
+    color: #333;
+    margin-right: 110px;
+}
+.com-pay .agriculture p a{
+    color: #333;
+}
+.com-pay .agriculture p:last-child{
+    margin-right: 0;
+}
+.com-pay .agriculture p .price{
+    color: #f6cda2;
+}
+
+.com-pay .other-pay{
+    overflow: hidden;
+    margin: 30px auto 0;
+    padding: 25px 0;
+    border-top: 1px solid #cdcdcd;
+}
+.com-pay .other-pay a{
+    border: 1px solid #bbb7b7;
+    margin-right: 25px;
+    font: 18px/40px '微软雅黑';
+    color: #333;
+    padding: 0 62px;
+    float: left;
+}
+
+
+
+.com-pay .security img{
+ display: inline-block;
+    cursor: pointer;
+}
+.com-pay .security p{
+    display: inline-block;
+    font: 14px/54px '微软雅黑';
+    color: #333;
+    vertical-align: middle;
+}
+
+
+.com-pay .password h5{
+    font: 18px/34px '微软雅黑';
+    color: #000;
+}
+.com-pay .password .pas-input{
+     overflow: hidden;
+
+ }
+.com-pay .password .pas-input div{
+    float: left;
+    border: 1px solid #bbb7b7;
+    overflow: hidden;
+    padding: 5px 0;
+    margin-right: 10px;
+}
+.com-pay .password .pas-input div input{
+    border: none;
+    float: left;
+    background: #f5f4f4;
+    width:27px;
+    border-right: 1px solid #bbb7b7;
+    text-align: center;
+}
+.com-pay .password .pas-input div input:last-child{
+    border-right: none;
+}
+.com-pay .password .pas-input a{
+    font: 12px/30px '微软雅黑';
+    color: #959ed8;
+}
+.com-pay .password p{
+    font: 12px/27px '微软雅黑';
+    color: #999999;
+}
+
+
+
+
+.pay{
+    border: none;
+    margin-top: 24px;
+    background: #4f61d6;
+    color: #fff;
+    font: 24px/34px '微软雅黑';
+    padding: 0 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

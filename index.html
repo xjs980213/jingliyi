@@ -19,7 +19,7 @@
                 <a href="register.html"><img src="img/Package.png" alt="">注册有礼</a>
               </div>
                   <div class="top-right">
-                <a href="member.html">会员中心</a> |
+                <a href="user.html">会员中心</a> |
                 <a href="order.html">我的订单</a> |
                 <p> 客服热线 <span>400-000-0001</span></p>
               </div>
@@ -82,21 +82,19 @@
         </div>
 
         <!--banner图-->
-        <div class="banner">
-          <!--大图-->
-            <ul>
-                <li><a href="javascript:;"><img src="img/banner-1.jpg" alt=""></a></li>
-                <!--<li><a href="javascript:;"><img src="img/banner-2.0.jpg" alt=""></a></li>-->
-                <!--<li><a href="javascript:;"><img src="img/banner-3.jpg" alt=""></a></li>-->
+        <div class="banner" id="banners">
+            <ul class="clearfix">
+                <li><a href="pro_details.html"><img src="img/banner-1.jpg" alt="banner1.png"></a></li>
+                <li><a href="pro_details.html"><img src="img/banner-2.0.jpg" alt="banner2.png"></a></li>
+                <li><a href="pro_details.html"><img src="img/banner-3.jpg" alt="banner3.png"></a></li>
             </ul>
-          <!--&lt;!&ndash;小图&ndash;&gt;-->
-            <!--<ol>-->
-                <!--<li></li>-->
-                <!--<li></li>-->
-                <!--<li></li>-->
-            <!--</ol>-->
-            <!--<a href="javascript:;" class="prev"><</a>-->
-            <!--<a href="javascript:;" class="next"></a>-->
+            <div class="banBtn" id="banBtn">
+                <a href="javasript:;"></a>
+                <a href="javasript:;"></a>
+                <a href="javasript:;"></a>
+            </div>
+            <span class="btn_pre" id="btn_p"></span>
+            <span class="btn_nex" id="btn_n"></span>
         </div>
 
         <!--优惠-->
@@ -555,6 +553,8 @@
   </div>
   <script src="lib/jquery.min.js"></script>
   <script src="js/nav-menu.js"></script>
+  <script src="js/banner.js"></script>
+  <script src="js/index.js"></script>
   <!--<script src="js/banner.js"></script>-->
   <script>
         $('.wrap .header .discount li:nth-child(4n)').css('marginRight','0');

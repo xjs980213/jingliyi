@@ -1,0 +1,83 @@
+/*收货地址列表*/
+.ads-title{
+    overflow: hidden;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+.ads-title a{
+    background: #dcf5f5;
+    border: 1px solid #aadede;
+    font:16px/26px '';
+    color: #000;
+    padding: 0 11px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
+}
+.ads-title p{
+    font:14px/26px '微软雅黑';
+    color: #666;
+    float: left;
+}
+
+.con-box ul li{
+    border:1px solid #e4e2e2;
+    color: #333;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.con-box ul li .ads-title{
+    overflow: hidden;
+    padding: 7px 13px 0;
+}
+.con-box ul li .ads-title h6{
+    float: left;
+    font:bold 16px/29px '微软雅黑';
+}
+.con-box ul li .ads-title p{
+    float: left;
+    font:bold 16px/29px '微软雅黑';
+    color: #333;
+    margin: 0 12px;
+}
+.con-box ul li .ads-title img{
+    float: left;
+    margin:7px 30px 0 0;
+}
+.con-box ul li .ads-title span{
+    float: left;
+    font:bold 14px/22px '微软雅黑';
+    color: #fff;
+    background: #f7bf46;
+    border-radius: 5px;
+    width: 68px;
+    text-align: center;
+}
+.con-box ul li div{
+    overflow: hidden;
+    font: 14px/23px '微软雅黑';
+    color: #666;
+}
+.con-box ul li div span{
+    float: left;
+    width: 110px;
+    text-align: right;
+    margin-right: 10px;
+}
+.con-box ul li div p{
+    float: left;
+}
+
+.operation{
+    float: right;
+    overflow: hidden;
+}
+.operation button{
+    margin-right: 35px;
+    float: left;
+    background: #fff;
+    border: none;
+    color: #004fef;
+    font: 14px/23px '微软雅黑';
+}

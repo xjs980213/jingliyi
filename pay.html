@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>确认订单页</title>
+    <title>支付页</title>
     <link rel="shrotcut icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/commit.css">
     <link rel="stylesheet" href="css/shop-cart.css">
-    <link rel="stylesheet" href="css/confirm-order.css">
+    <link rel="stylesheet" href="css/pay.css">
 </head>
 <body>
 <div class="wrap">
@@ -20,7 +20,7 @@
                     <a href="register.html"><img src="img/Package.png" alt="">注册有礼</a>
                 </div>
                 <div class="top-right">
-                    <a href="user.html">会员中心</a> |
+                    <a href="member.html">会员中心</a> |
                     <a href="order.html">我的订单</a> |
                     <p> 客服热线 <span>400-000-0001</span></p>
                 </div>
@@ -55,124 +55,105 @@
 
             </div>
         </div>
-        <div class="cart">
-            <!--收获地址-->
-            <div class="address">
-                <div class="title">
-                    <h5>选择收货地址</h5>
-                </div>
-                <div class="address-list">
-                    <div>
-                        <p>上海(某某某 收)</p>
-                        <p>上海市 浦东新区 某某镇 某某路</p>
-                        <p>13045541144</p>
-                        <button class="modify">修改</button>
-                        <span class="default">默认地址</span>
-                    </div>
-                    <div>
-                        <p>上海(某某某 收)</p>
-                        <p>上海市 浦东新区 某某镇 某某路</p>
-                        <p>13045541144</p>
-                    </div>
-                    <div>
-                        <a href="javascript:;"><img src="img/more.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="whole-administration">
-                    <a href="javascript:;" class="whole">显示全部地址</a>
-                    <a href="javascript:;" class="administration">管理收货地址</a>
-                </div>
-            </div>
-            <div class="title">
-                <h5>确认订单信息</h5>
-            </div>
-            <div class="cart-list">
-                <table>
-                    <thead>
-                    <tr><th>商品名称</th><th>单品价格</th><th>购买数量</th><th>折扣</th><th>小计</th> </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td><img src="img/1.png" alt=""><div><p>潜水艇厨卫两用水龙头</p> <p>型号  L2154C</p> </div></td>
-                        <td> <span>￥<strong class="unit-price">76.00</strong></span> </td>
-                        <td><input type="text" class="num" value="1"></td>
-                        <td><span>-￥<strong>0.00</strong></span></td>
-                        <td><span>￥<strong class="subtotal">76.00</strong></span> </td>
-                    </tr>
-                    <tr>
-                        <td><img src="img/1.png" alt=""><div><p>潜水艇厨卫两用水龙头</p> <p>型号  L2154C</p> </div></td>
-                        <td> <span>￥<strong class="unit-price">76.00</strong></span> </td>
-                        <td><input type="text" class="num" value="1"></td>
-                        <td><span>-￥<strong>0.00</strong></span></td>
-                        <td><span>￥<strong class="subtotal">76.00</strong></span> </td>
-                    </tr>
-                    <tr>
-                        <td><img src="img/1.png" alt=""><div><p>潜水艇厨卫两用水龙头</p> <p>型号  L2154C</p> </div></td>
-                        <td> <span>￥<strong class="unit-price">76.00</strong></span> </td>
-                        <td><input type="text" class="num" value="1"></td>
-                        <td><span>-￥<strong>0.00</strong></span></td>
-                        <td><span>￥<strong class="subtotal">76.00</strong></span> </td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-            <!--实际付款-->
-            <div class="payment">
-                <div class="form-choice">
-                    <form>
-                        <div class="form-group">
-                            <label>发票抬头类型</label>
-                            <div>
-                                <p><input type="checkbox" checked="checked">个人</p>
-                                <p><input type="checkbox">企业</p>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label>配送方式:</label>
-                            <div>
-                                <p>普通快递 快递 免邮</p>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label>发票抬头:</label>
-                            <div>
-                                <p>某某某</p>
-                                <button>修改</button>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label>店铺优惠:</label>
-                            <div>
-                                <input type="text" value="满99包邮">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label>给卖家留言:</label>
-                            <div>
-                                <input type="text" value="选填:对卖家的备注！">
-                            </div>
-                        </div>
-
-                    </form>
 
 
+        <div class="order-success">
+            <img src="img/erweima.png" alt="" class="qr">
+            <div class="details">
+                <img src="img/duihao.png" alt="">
+                <div class="order-number">
+                    <p>订单提交成功，请您尽快付款!订单号:52233323</p>
+                    <p>请您在提交后24小时内完成支付，否则订单会自动取消</p>
                 </div>
-                <div class="total">
-                    <p>商品总价(含运费) : <span>￥<strong>228.00</strong></span> </p>
-                    <p>实付款 : <span>￥<strong>228.00</strong></span> </p>
-                </div>
+                <p>收货地址 : 上海市 浦东新区 某某镇 某某路</p>
+                <p>发票信息 : 电子发票</p>
+                <p>发票内容: 商品明细</p>
             </div>
-            <!--提交订单-->
-            <div class="cart-settlement">
+
+        </div>
+        <!--缺认支付-->
+        <div class="com-pay">
+            <!--agriculture 农业-->
+            <div class="agriculture">
+                <div class="checked"><i></i></div>
+                <img src="img/ny.png" alt="">
+                <p>中国农业储蓄银行</p>
+                <p>****5478</p>
+                <p><a href="javascript:;">储蓄卡</a>丨<a href="javascript:;">快捷</a></p>
+                <p>支付<strong class="price">258.00</strong>元</p>
+            </div>
+            <!--其他 付款-->
+            <div class="other-pay">
+                <a href="javascript:;">其他付款方式</a>
+                <a href="javascript:;">添加/快捷网银付款</a>
+            </div>
+            <!--安全-->
+            <div class="security">
+                <img src="img/duihaoxiao.png" alt="">
+                <p>您在安全的环境中，请放心使用！</p>
+            </div>
+
+
+            <div class="password">
+                <h5>支付宝支付密码:</h5>
+                <div class="pas-input">
+                    <div>
+                        <input type="text">
+                        <input type="text">
+                        <input type="text">
+                        <input type="text">
+                        <input type="text">
+                        <input type="text">
+                    </div>
+                    <a href="javascript:;">忘记密码？</a>
+                </div>
+                <p>请输入6位数字支付密码！</p>
+            </div>
+
+
+
+            <button class="pay">确认付款</button>
+        </div>
+    </div>
+    <!--支付成功-->
+    <div class="success hid">
+        <div class="success-box">
+            <img src="img/sceuu.png" alt="">
+            <div>
+                <h4>恭喜支付成功！</h4>
+                <p>支付方式：中国农业储蓄银行卡</p>
+                <p>订单号：541663544114</p>
+                <p>用户账号：某某某</p>
+                <p>交易金额：258元</p>
+                <p>收货地址：上海市 浦东新区 某某镇 某某路</p>
                 <div>
-                    <a href="shop_cart.html" class="shop-crat"><img src="img/fanhui.png" alt="">返回购物车</a>
-                    <a href="javascript:;" class="settlement">提交订单</a>
+                    <a href="shop_list.html"><继续购物</a>
+                    <a href="order.html">查看订单></a>
                 </div>
-
             </div>
         </div>
-
     </div>
+
+    <!--支付S失败-->
+    <div class="failure hid">
+        <div class="failure-box">
+            <img src="img/error.png" alt="">
+            <div>
+                <h4>订单支付失败！</h4>
+                <p>支付方式：中国农业储蓄银行卡</p>
+                <p>订单号：541663544114</p>
+                <p>用户账号：某某某</p>
+                <p>交易金额：258元</p>
+                <p>收货地址：上海市 浦东新区 某某镇 某某路</p>
+                <div>
+                    <a href="pay.html"><返回页面</a>
+                    <a href="order.html">查看订单></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <div class="footer">
         <div class="foot-top">
             <ul>
@@ -257,5 +238,26 @@
 </div>
 <script src="lib/jquery.min.js"></script>
 <script src="js/nav-menu.js"></script>
+
+<script>
+
+    var t = $('.header').height() -5;
+    var h = $('.main').height()+40;
+
+$('.success').css({
+    'top':t,
+    'left':0,
+    'height':h
+})
+$('.failure').css({
+    'top':t,
+    'left':0,
+    'height':h
+})
+
+
+
+</script>
+
 </body>
 </html>

@@ -1,0 +1,148 @@
+/*订单详情页*/
+
+.ads-title a{
+    border: none;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+
+.receiving-process{
+    overflow: hidden;
+    background: #fff;
+    border-radius: 10px;
+    margin: 30px 0;
+    color: #666;
+}
+.receiving-process  .left{
+    float: left;
+    width:200px;
+    text-align: center;
+}
+.receiving-process  .left p{
+    display: block;
+    font:14px/37px '微软雅黑';
+    margin-top: 27px;
+}
+.receiving-process  .left p span{
+    display: inline-block;
+    font:14px/37px '微软雅黑';
+    color: #666;
+}
+.receiving-process  .left span{
+    display: block;
+    font:24px/47px '微软雅黑';
+    color: #32c1d4;
+    margin: 0 0 8px 0;
+}
+.receiving-process  .left button{
+    width: 93px;
+    text-align: center;
+    border:1px solid #d9331d;
+    font:14px/19px '微软雅黑';
+    color: #d9331d;
+    display: block;
+    background: #fff;
+    margin: 0 auto 20px;
+    border-radius: 5px;
+
+}
+
+.receiving-process  .right{
+    float: left;
+    font: 14px/22px '微软雅黑';
+    color: #666;
+    padding: 35px 0 0 0;
+}
+.receiving-process  .right .sh-tu{
+    overflow: hidden;
+}
+.receiving-process  .right .sh-tu div{
+    float: left;
+}
+.receiving-process  .right .sh-tu div img
+{
+    margin: 20px 0;
+}
+.receiving-process  .right .sh-tu div:nth-child(1n){
+    width: 66px;
+    text-align: center;
+}
+.receiving-process  .right .sh-tu div:nth-child(2n){
+    width: 92px;
+    text-align: center;
+    position: relative;
+}
+.receiving-process  .right .sh-tu div .text{
+    font:12px/30px '微软雅黑';
+    color: #32c1d4;
+    position: absolute;
+    left: 20%;
+}
+.receiving-process  .right .sh-tu div .line{
+    width: 92px;
+    border-top: 1px dashed #32c1d4;
+    float: left;
+    margin-top: 32px;
+}
+
+
+
+.logistics,.pro-information{
+    border-radius: 10px;
+    background: #fff;
+    margin: 0 0 30px;
+    padding: 15px 58px;
+    color: #333;
+}
+.logistics h6,.pro-information h6{
+    font: 16px/47px '微软雅黑';
+
+}
+.logistics div p{
+    font: 14px/25px '微软雅黑';
+}
+.pro-information ul li{
+    border:1px solid #e4e2e2;
+}
+.pro-information ul li .title{
+    overflow: hidden;
+    background: #f5f4f4;
+    padding: 0 35px;
+}
+.pro-information ul li .title p{
+    float: left;
+    font: 14px/32px '微软雅黑';
+    color: #333;
+    margin-right: 40px;
+}
+
+.pro-information ul li .con{
+    overflow: hidden;
+}
+.pro-information ul li .con div{
+    width: 163px;
+    text-align: center;
+    float: left;
+    padding: 15px 0;
+}
+.pro-information ul li .con div span{
+    display: block;
+}
+.pro-information ul li .con div:nth-child(2){
+    width: 230px;
+}
+.pro-information ul li .con div p{
+    font: 14px/22px '微软雅黑';
+    color: #333333;
+    text-align: left;
+}
+.pro-information ul li .con div span{
+    font: 14px/22px '微软雅黑';
+    color: #333333;
+}
+.pro-information ul li .con div a{
+    font: 14px/14px '微软雅黑';
+    color: #333333;
+}
